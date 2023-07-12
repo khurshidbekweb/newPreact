@@ -15,6 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .navbar__list{   
     position: relative; 
@@ -28,14 +29,16 @@
     display: none;
     position: absolute;
     left: 80px;
+   
 }
 .mainLinks{
     text-decoration: none;
+    text-transform:uppercase;
 }
 .selaectis::after{
     content: "^";    
     display: block;
-    margin-left: 72px;
+    margin-left: 85px;
     margin-top: -17px;
 }
 .selaectis:hover{
@@ -64,4 +67,33 @@
 .signUp:hover{   
     background: #000;
     color: #fff;
+}
+
+.hero__inner{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+.hero__info{
+   margin-top: -50px; 
+}
+.hero__title{
+    text-transform: uppercase;
+    font-size: 62px;
+    font-weight: 800; 
+      
+}
+.line{
+    display: block;
+    width: 335px;
+    height: 4px;
+    background: #000;
+    margin: 60px 0;
+}
+.advertising{
+    margin: 35px 0 0 60px;
+}
+.hero_img{
+    width: 60%;
 }
