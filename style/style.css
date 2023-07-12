@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header_inner{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__list{   
+    position: relative; 
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none; ;
+}
+.list_linkSelect{
+    display: none;
+    position: absolute;
+    left: 80px;
+}
+.mainLinks{
+    text-decoration: none;
+}
+.selaectis::after{
+    content: "^";    
+    display: block;
+    margin-left: 72px;
+    margin-top: -17px;
+}
+.selaectis:hover{
+    .list_linkSelect{
+        display: block;
+    } 
+}
+
+.logIn{
+    border: none;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.logIn:hover{
+    background: #000;
+    color: #fff;
+}
+.signUp{
+    border: none;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+.signUp:hover{   
+    background: #000;
+    color: #fff;
+}
