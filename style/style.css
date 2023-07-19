@@ -96,3 +96,29 @@
 .hero_img{
     width: 60%;
 }
+.toggle{
+    display: block;
+    width: 35px;
+    height: 30px;      
+}
+.togleLine{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #000;
+    margin:5px 0;
+    border-radius: 5px;
+}
+.toggleAcaid{    
+    margin-left:auto;  
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background: #000;  
+}
+.display{
+    display: none;
+}
+.toggle__list{
+    list-style-type: none;  
+}
